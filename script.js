@@ -9,4 +9,5 @@ btn.addEventListener("click", function () {
   document.body.style.background = colors[randomNumber];
   // update color text
   color.textContent = colors[randomNumber];
+  color.style.color = colors[randomNumber];
 });
